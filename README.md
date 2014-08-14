@@ -6,7 +6,6 @@ Dev environment
 
 - Mac OS X 10.9.4
 
-
 Setup
 -----
 
@@ -20,13 +19,12 @@ Setup
     $ boot2docker download
     $ boot2docker start
 
-
 Make an image
 -------------
 
 There is a two way
 
-One is pull a docker image from docker hub
+One is pull a docker image from docker hub [repo](https://registry.hub.docker.com/u/carpedm20/ubuntu/)
     $ docker pull carpedm20/ubuntu
 Second is a build a image with Dockerfile
     $ docker build -t carpedm20/ubuntu:python
