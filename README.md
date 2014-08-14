@@ -11,10 +11,12 @@ Setup
 
 1. Download [boot2docker](https://github.com/boot2docker/osx-installer/releases)
 2. Run below commands
+
         $ boot2docker init
         $ boot2docker start
         $ export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 3. To stop or restart docker
+
         $ boot2docker stop
         $ boot2docker download
         $ boot2docker start
