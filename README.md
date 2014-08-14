@@ -4,10 +4,9 @@ Easily written Docker
 This is a basic guideline for making a Ubuntu image on your machine.
 I created this repo to avoid entering same commands everytime when I reinstall Ubuntu to my laptop..
 
-Setup
------
 
-If you are using `Mac`
+Setup for Mac
+-------------
 
 1. Download [boot2docker](https://github.com/boot2docker/osx-installer/releases)
 2. Run below commands
@@ -21,7 +20,9 @@ If you are using `Mac`
         $ boot2docker download
         $ boot2docker start
 
-If you are using `Windows`
+
+Setup for Windows
+-----------------
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. Install [Vagrant](https://www.vagrantup.com/downloads.html)
@@ -37,6 +38,7 @@ If you are using `Windows`
         $ apt-get update
         $ apt-get install -y lxc-docker
         $ docker run hello-world
+
 
 Make an image
 -------------
